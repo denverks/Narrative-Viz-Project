@@ -93,7 +93,7 @@ function main() {
         g.append("text")
             .attr("x", -320)
             .attr("y", -110)
-            .text("The players' overall ratings are arranged in ascending order from left to right.")
+            .text("Hover over each bar to display more information for each player.")
             .attr("text-anchor", "start") // Align the text to the start (left) of the text position
             .attr("dy", "0.32em");
 
