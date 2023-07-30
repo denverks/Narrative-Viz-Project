@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<html>
+  <head>
+    <script src="https://d3js.org/d3.v7.min.js" charset="utf-8"></script>
+    <link rel='stylesheet' href='style.css'>
+  </head>
+  <body>
+    <button class="nextbutton1" id="nextbutton1" onclick="window.location.href = 'page-2.html'">Next</button>
+    <h1>
+      <center>
+        FIFA 21 Players List
+      </center>
+    </h1>
+    <p class="p1">The following table contains a list of players in FIFA 21 with an overall rating of 89 or above.</p>
+
+    <p class="p2">Original dataset: 
+      <a href="https://www.kaggle.com/datasets/ahmettezcantekin/fifa-21-player-ratings" target="_blank">
+        https://www.kaggle.com/datasets/ahmettezcantekin/fifa-21-player-ratings</a></p>
+
+    <p class="p3">Alternative link to the dataset: 
+      <a href="https://github.com/denverks/Narrative-Viz-Project/blob/main/fifa21.csv" target="_blank">
+        https://github.com/denverks/Narrative-Viz-Project/blob/main/fifa21.csv</a></p>
+
+    <!-- Add a container for the table -->
+    <div id="tableContainer"></div>
+    <script type='text/javascript' src='table.js'></script>
+  </body>
+</html>
