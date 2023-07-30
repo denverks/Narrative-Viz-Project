@@ -36,6 +36,12 @@ h1 {
     padding: 10px;
 }
 
+.p2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
 /* Next button on page 1 */
 .nextbutton1 {
     float: right;
